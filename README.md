@@ -21,7 +21,6 @@ This is a CLI-based 2-player circular board game where players move based on dic
 - Run `python3 test_board.py ` to execute the unit tests.
 - Run `python3 test_game.py ` to execute the unit tests.
 - Run `python3 test_player.py` to execute the unit tests.
-- Run `python3 test_main.py` to execute the unit tests.
 
 ## Assumptions
 - The game board and the rules are predefined and hardcoded.
@@ -43,7 +42,6 @@ This is a CLI-based 2-player circular board game where players move based on dic
 
 - `test_board.py`: Unit tests for the `Board` class. Tests cover board initialization, position tracking, and board state display.
 
-- `test_main.py`: Unit tests for the main game execution flow (`main.py`). Tests simulate user inputs and check game outcomes, including handling interruptions.
 
 ## Design Principles
 
