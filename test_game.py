@@ -23,7 +23,5 @@ class TestGame(unittest.TestCase):
         self.game.player1.balance = 150
         self.assertTrue(self.game.check_and_print_win_conditions())
 
-        # Add more tests for other methods as needed
-
 if __name__ == "__main__":
     unittest.main()
