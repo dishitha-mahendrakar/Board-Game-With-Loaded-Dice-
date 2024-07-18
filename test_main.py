@@ -15,7 +15,5 @@ class TestMain(unittest.TestCase):
         except KeyboardInterrupt:
             self.fail("Game exited with KeyboardInterrupt")
 
-    # Add more tests for other methods as needed
-
 if __name__ == "__main__":
     unittest.main()
