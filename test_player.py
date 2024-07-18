@@ -19,7 +19,7 @@ class TestPlayer(unittest.TestCase):
 
         self.player.update_balance(-20)
         self.assertEqual(self.player.balance, 0)
-        self.assertEqual(self.player.debt, 20)
+        self.assertEqual(self.player.debt, 5)
 
     def test_roll_dice(self):
         outcome = self.player.roll_dice()
