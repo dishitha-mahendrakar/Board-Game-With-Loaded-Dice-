@@ -9,7 +9,7 @@ This is a CLI-based 2-player circular board game where players move based on dic
 ## How to Run
 1. Clone the repository.
 2. Navigate to the project directory.
-3. Run `python main.py` to start the game.
+3. Run `python3 main.py` to start the game.
 
 ## Game Rules
 - Players start with a balance of 5 and a debt of 0.
@@ -18,7 +18,7 @@ This is a CLI-based 2-player circular board game where players move based on dic
 - The game ends when a player's balance minus debt exceeds 100 or when the opponent's debt minus balance exceeds 100.
 
 ## Unit Tests
-Run `python -m unittest discover -s tests -p "*.py"` to execute the unit tests.
+Run `python3 -m unittest discover -s tests -p "*.py"` to execute the unit tests.
 
 ## Assumptions
 - The game board and the rules are predefined and hardcoded.
