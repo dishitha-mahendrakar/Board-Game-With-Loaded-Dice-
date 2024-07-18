@@ -18,10 +18,10 @@ This is a CLI-based 2-player circular board game where players move based on dic
 - The game ends when a player's balance minus debt exceeds 100 or when the opponent's debt minus balance exceeds 100.
 
 ## Unit Tests
-Run `python3 test_board.py ` to execute the unit tests.
-Run `python3 test_game.py ` to execute the unit tests.
-Run `python3 test_player.py` to execute the unit tests.
-Run `python3 test_main.py` to execute the unit tests.
+- Run `python3 test_board.py ` to execute the unit tests.
+- Run `python3 test_game.py ` to execute the unit tests.
+- Run `python3 test_player.py` to execute the unit tests.
+- Run `python3 test_main.py` to execute the unit tests.
 
 ## Assumptions
 - The game board and the rules are predefined and hardcoded.
