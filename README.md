@@ -19,7 +19,7 @@ This is a CLI-based 2-player circular board game where players move based on dic
 
 ## Unit Tests
 Run `python3 test_board.py ` to execute the unit tests.
-Run `python3  test_game.py ` to execute the unit tests.
+Run `python3 test_game.py ` to execute the unit tests.
 Run `python3 test_player.py` to execute the unit tests.
 Run `python3 test_main.py` to execute the unit tests.
 
