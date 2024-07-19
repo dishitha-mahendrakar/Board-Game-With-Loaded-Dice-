@@ -9,9 +9,6 @@ class Player:
 
     def update_balance(self, amount):
         self.balance += amount
-        if self.balance < 0:
-            self.debt += abs(self.balance)
-            self.balance = 0
 
     def roll_dice(self, consecutive_rolls=0):
         if consecutive_rolls > 5:
